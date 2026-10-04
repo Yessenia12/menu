@@ -1,8 +1,154 @@
 <!DOCTYPE html>
-<html>
-    <body>
-        <a href="https://www.google.com/?hl=es">IR A GOOGLE</a>
-        <a href="https://juegolimones-nine.vercel.app/">JUEGO LIMONES</a>
-        <a href="https://juegocazando-pi.vercel.app/">JUEGO CAZADOR</a>
-    </body>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yessenia Quinatoa | Portafolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <!-- Fondo inspirado en la Sierra ecuatoriana -->
+    <div class="paisaje" aria-hidden="true">
+        <div class="montana montana-1"></div>
+        <div class="montana montana-2"></div>
+        <div class="montana montana-3"></div>
+    </div>
+
+    <!-- Encabezado -->
+    <header class="encabezado">
+        <div class="marca">
+            <span class="marca-punto"></span>
+            <span>MI PORTAFOLIO</span>
+        </div>
+
+        <!-- Menú -->
+        <nav class="menu">
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#proyectos">Proyectos</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Presentación -->
+        <section class="hero" id="inicio">
+
+            <div class="hero-texto">
+                <span class="etiqueta">Programación · JavaScript</span>
+
+                <h1>Hola, soy<br><span>Yessenia Quinatoa</span></h1>
+
+                <p>
+                    Este es mi espacio para presentar lo que voy aprendiendo,
+                    mis prácticas y algunos de los proyectos que he realizado
+                    con JavaScript.
+                </p>
+
+                <a class="boton-principal" href="#proyectos">
+                    Ver mis proyectos
+                    <span>→</span>
+                </a>
+            </div>
+
+            <div class="hero-imagen">
+                <div class="halo"></div>
+                <img src="avatar.png" alt="Avatar de Yessenia Quinatoa">
+                <div class="paisaje-etiqueta">
+                    <span>✦</span>
+                    Inspiración andina
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Tarjeta de información -->
+        <section class="informacion" id="sobre-mi">
+
+            <div class="titulo-seccion">
+                <span class="numero">01</span>
+                <div>
+                    <span class="mini-titulo">CONÓCEME</span>
+                    <h2>Mi espacio creativo</h2>
+                </div>
+            </div>
+
+            <article class="tarjeta-informacion">
+                <div class="tarjeta-icono">⌘</div>
+
+                <div>
+                    <h3>Programando con JavaScript</h3>
+                    <p>
+                        En este espacio comparto parte de mi trabajo y los
+                        ejercicios que he desarrollado mientras aprendo
+                        programación. Cada proyecto representa una práctica
+                        y una nueva experiencia.
+                    </p>
+                </div>
+
+                <div class="detalle-tarjeta">
+                    <span>ENFOQUE</span>
+                    <strong>Aprender · Crear · Mejorar</strong>
+                </div>
+            </article>
+
+        </section>
+
+        <!-- Proyectos -->
+        <section class="proyectos" id="proyectos">
+
+            <div class="titulo-seccion">
+                <span class="numero">02</span>
+                <div>
+                    <span class="mini-titulo">MIS PROYECTOS</span>
+                    <h2>Lo que he creado</h2>
+                </div>
+            </div>
+
+            <div class="menu-proyectos">
+
+                <a class="proyecto" href="https://juegolimones-nine.vercel.app/" target="_blank">
+                    <div class="proyecto-numero">01</div>
+                    <div class="proyecto-contenido">
+                        <span class="proyecto-categoria">Juego · JavaScript</span>
+                        <h3>Juego de Limones</h3>
+                        <p>Explora uno de mis primeros proyectos interactivos.</p>
+                    </div>
+                    <span class="flecha">↗</span>
+                </a>
+
+                <a class="proyecto" href="https://juegocazando-pi.vercel.app/" target="_blank">
+                    <div class="proyecto-numero">02</div>
+                    <div class="proyecto-contenido">
+                        <span class="proyecto-categoria">Juego · JavaScript</span>
+                        <h3>Juego Cazador</h3>
+                        <p>Una experiencia interactiva desarrollada con JavaScript.</p>
+                    </div>
+                    <span class="flecha">↗</span>
+                </a>
+
+                <a class="proyecto" href="https://www.google.com/?hl=es" target="_blank">
+                    <div class="proyecto-numero">03</div>
+                    <div class="proyecto-contenido">
+                        <span class="proyecto-categoria">Recurso web</span>
+                        <h3>Google</h3>
+                        <p>Acceso rápido a una herramienta de búsqueda.</p>
+                    </div>
+                    <span class="flecha">↗</span>
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <span>YESSENIA QUINATOA</span>
+        <span>Hecho con dedicación · Ecuador</span>
+    </footer>
+
+</body>
 </html>
